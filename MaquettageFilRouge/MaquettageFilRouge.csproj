@@ -88,8 +88,32 @@
     <Compile Include="05_Catalogue.Designer.cs">
       <DependentUpon>05_Catalogue.cs</DependentUpon>
     </Compile>
+    <Compile Include="06A_DetailsCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06A_DetailsCommande.Designer.cs">
+      <DependentUpon>06A_DetailsCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06_Recherches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06_Recherches.Designer.cs">
+      <DependentUpon>06_Recherches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Erreur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Erreur.Designer.cs">
+      <DependentUpon>Erreur.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quitter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quitter.Designer.cs">
+      <DependentUpon>Quitter.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="01_Login.resx">
       <DependentUpon>01_Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +135,15 @@
     <EmbeddedResource Include="05_Catalogue.resx">
       <DependentUpon>05_Catalogue.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="06A_DetailsCommande.resx">
+      <DependentUpon>06A_DetailsCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Recherches.resx">
+      <DependentUpon>06_Recherches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Erreur.resx">
+      <DependentUpon>Erreur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -120,6 +153,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Quitter.resx">
+      <DependentUpon>Quitter.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

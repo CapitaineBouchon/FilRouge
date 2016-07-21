@@ -109,6 +109,7 @@
             this.label33 = new System.Windows.Forms.Label();
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -836,6 +837,15 @@
             this.label34.TabIndex = 0;
             this.label34.Text = "Nom";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(93, 720);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Supprimer";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // _04A_Synthese_commande
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -843,6 +853,7 @@
             this.ClientSize = new System.Drawing.Size(1855, 755);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox20);
             this.Controls.Add(this.label18);
@@ -951,5 +962,6 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.TextBox textBox34;
         private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button button4;
     }
 }
