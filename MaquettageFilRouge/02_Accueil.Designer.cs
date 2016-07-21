@@ -101,6 +101,7 @@
             this.button7.TabIndex = 0;
             this.button7.Text = "Recherche";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Accueil
             // 

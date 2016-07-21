@@ -32,35 +32,37 @@
             this.commandesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.commandesEnCoursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.commandesParClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chiffreDaffaireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.commandesParProduitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chiffreDaffaireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rechercheParToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.codeCommande = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CodeClient = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ProduitsRestant = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.produitTotaux = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Montant = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.listBox6 = new System.Windows.Forms.ListBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,30 +72,28 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
-            this.listBox5 = new System.Windows.Forms.ListBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.listBox5 = new System.Windows.Forms.ListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button5 = new System.Windows.Forms.Button();
-            this.listBox6 = new System.Windows.Forms.ListBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -102,12 +102,12 @@
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -137,12 +137,20 @@
             this.commandesEnCoursToolStripMenuItem.Name = "commandesEnCoursToolStripMenuItem";
             this.commandesEnCoursToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.commandesEnCoursToolStripMenuItem.Text = "Commandes en Cours";
+            this.commandesEnCoursToolStripMenuItem.Click += new System.EventHandler(this.commandesEnCoursToolStripMenuItem_Click);
             // 
             // commandesParClientToolStripMenuItem
             // 
             this.commandesParClientToolStripMenuItem.Name = "commandesParClientToolStripMenuItem";
             this.commandesParClientToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.commandesParClientToolStripMenuItem.Text = "Commandes par Client";
+            this.commandesParClientToolStripMenuItem.Click += new System.EventHandler(this.commandesParClientToolStripMenuItem_Click);
+            // 
+            // commandesParProduitToolStripMenuItem
+            // 
+            this.commandesParProduitToolStripMenuItem.Name = "commandesParProduitToolStripMenuItem";
+            this.commandesParProduitToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.commandesParProduitToolStripMenuItem.Text = "Commandes par Produit";
             // 
             // chiffreDaffaireToolStripMenuItem
             // 
@@ -151,12 +159,6 @@
             this.chiffreDaffaireToolStripMenuItem.Name = "chiffreDaffaireToolStripMenuItem";
             this.chiffreDaffaireToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.chiffreDaffaireToolStripMenuItem.Text = "Chiffre d\'affaire";
-            // 
-            // commandesParProduitToolStripMenuItem
-            // 
-            this.commandesParProduitToolStripMenuItem.Name = "commandesParProduitToolStripMenuItem";
-            this.commandesParProduitToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
-            this.commandesParProduitToolStripMenuItem.Text = "Commandes par Produit";
             // 
             // rechercheParToolStripMenuItem
             // 
@@ -182,7 +184,37 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Commandes en cours";
+            this.groupBox1.Visible = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(103, 95);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Détails";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "Client",
+            "Date"});
+            this.listBox1.Location = new System.Drawing.Point(66, 28);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(89, 30);
+            this.listBox1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Trier par";
             // 
             // dataGridView1
             // 
@@ -199,26 +231,6 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(621, 99);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Trier par";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "Client",
-            "Date"});
-            this.listBox1.Location = new System.Drawing.Point(66, 28);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(89, 30);
-            this.listBox1.TabIndex = 2;
             // 
             // codeCommande
             // 
@@ -252,15 +264,6 @@
             this.produitTotaux.ReadOnly = true;
             this.produitTotaux.Width = 150;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(103, 95);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Détails";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -286,22 +289,32 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Commande par client";
+            this.groupBox2.Visible = false;
             // 
-            // dataGridView2
+            // button4
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.Montant});
-            this.dataGridView2.Location = new System.Drawing.Point(184, 84);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.Size = new System.Drawing.Size(621, 99);
-            this.dataGridView2.TabIndex = 1;
+            this.button4.Location = new System.Drawing.Point(328, 27);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Rechercher";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(149, 29);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(159, 20);
+            this.textBox1.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(37, 32);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(106, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Rechercher un client";
             // 
             // button3
             // 
@@ -334,6 +347,22 @@
             this.label2.Text = "Trier par";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // dataGridView2
+            // 
+            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.Montant});
+            this.dataGridView2.Location = new System.Drawing.Point(184, 84);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersVisible = false;
+            this.dataGridView2.Size = new System.Drawing.Size(621, 99);
+            this.dataGridView2.TabIndex = 1;
+            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "Référence Commande";
@@ -365,31 +394,6 @@
             this.Montant.Name = "Montant";
             this.Montant.ReadOnly = true;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(37, 32);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Rechercher un client";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(149, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 20);
-            this.textBox1.TabIndex = 8;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(328, 27);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Rechercher";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.listBox6);
@@ -404,6 +408,27 @@
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Commande par produit";
+            this.groupBox3.Visible = false;
+            // 
+            // listBox6
+            // 
+            this.listBox6.FormattingEnabled = true;
+            this.listBox6.Items.AddRange(new object[] {
+            "Année",
+            "Mois"});
+            this.listBox6.Location = new System.Drawing.Point(75, 114);
+            this.listBox6.Name = "listBox6";
+            this.listBox6.Size = new System.Drawing.Size(89, 30);
+            this.listBox6.TabIndex = 8;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(8, 114);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(61, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Afficher par";
             // 
             // button6
             // 
@@ -491,6 +516,84 @@
             this.groupBox4.Text = "Chiffre d\'affaire";
             this.groupBox4.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(80, 77);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Afficher";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.dataGridView4);
+            this.groupBox6.Location = new System.Drawing.Point(169, 11);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(648, 128);
+            this.groupBox6.TabIndex = 6;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Type de client";
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn12});
+            this.dataGridView4.Location = new System.Drawing.Point(15, 19);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.RowHeadersVisible = false;
+            this.dataGridView4.Size = new System.Drawing.Size(409, 99);
+            this.dataGridView4.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Date";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.HeaderText = "Type de client";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.HeaderText = "Nombre de commande";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.HeaderText = "Chiffre d\'affaire";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.ReadOnly = true;
+            // 
+            // listBox5
+            // 
+            this.listBox5.FormattingEnabled = true;
+            this.listBox5.Items.AddRange(new object[] {
+            "Année",
+            "Mois"});
+            this.listBox5.Location = new System.Drawing.Point(73, 109);
+            this.listBox5.Name = "listBox5";
+            this.listBox5.Size = new System.Drawing.Size(89, 30);
+            this.listBox5.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(21, 109);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Trier par";
+            // 
             // listBox4
             // 
             this.listBox4.FormattingEnabled = true;
@@ -522,30 +625,37 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Total";
             // 
-            // groupBox6
+            // dataGridView5
             // 
-            this.groupBox6.Controls.Add(this.dataGridView4);
-            this.groupBox6.Location = new System.Drawing.Point(169, 11);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(648, 128);
-            this.groupBox6.TabIndex = 6;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Type de client";
+            this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column3,
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn13});
+            this.dataGridView5.Location = new System.Drawing.Point(15, 19);
+            this.dataGridView5.Name = "dataGridView5";
+            this.dataGridView5.RowHeadersVisible = false;
+            this.dataGridView5.Size = new System.Drawing.Size(309, 99);
+            this.dataGridView5.TabIndex = 0;
             // 
-            // dataGridView4
+            // Column3
             // 
-            this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn12});
-            this.dataGridView4.Location = new System.Drawing.Point(15, 19);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.RowHeadersVisible = false;
-            this.dataGridView4.Size = new System.Drawing.Size(409, 99);
-            this.dataGridView4.TabIndex = 0;
+            this.Column3.HeaderText = "Date";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.HeaderText = "Nombre de commande";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.HeaderText = "Chiffre d\'affaire";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.ReadOnly = true;
             // 
             // groupBox7
             // 
@@ -572,64 +682,6 @@
             this.dataGridView6.Size = new System.Drawing.Size(507, 99);
             this.dataGridView6.TabIndex = 0;
             // 
-            // dataGridView5
-            // 
-            this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column3,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn13});
-            this.dataGridView5.Location = new System.Drawing.Point(15, 19);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.RowHeadersVisible = false;
-            this.dataGridView5.Size = new System.Drawing.Size(309, 99);
-            this.dataGridView5.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(21, 109);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Trier par";
-            // 
-            // listBox5
-            // 
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.Items.AddRange(new object[] {
-            "Année",
-            "Mois"});
-            this.listBox5.Location = new System.Drawing.Point(73, 109);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.Size = new System.Drawing.Size(89, 30);
-            this.listBox5.TabIndex = 2;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Date";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Type de client";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Nombre de commande";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.HeaderText = "Chiffre d\'affaire";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.ReadOnly = true;
-            // 
             // Column2
             // 
             this.Column2.HeaderText = "Date";
@@ -654,53 +706,6 @@
             this.dataGridViewTextBoxColumn20.HeaderText = "Chiffre d\'affaire";
             this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
             this.dataGridViewTextBoxColumn20.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Date";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "Nombre de commande";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.HeaderText = "Chiffre d\'affaire";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.ReadOnly = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(80, 77);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Afficher";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // listBox6
-            // 
-            this.listBox6.FormattingEnabled = true;
-            this.listBox6.Items.AddRange(new object[] {
-            "Année",
-            "Mois"});
-            this.listBox6.Location = new System.Drawing.Point(75, 114);
-            this.listBox6.Name = "listBox6";
-            this.listBox6.Size = new System.Drawing.Size(89, 30);
-            this.listBox6.TabIndex = 8;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(8, 114);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 13);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Afficher par";
             // 
             // Chiffre_affaire
             // 
@@ -732,12 +737,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.groupBox7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

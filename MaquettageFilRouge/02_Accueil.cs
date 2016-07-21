@@ -36,5 +36,11 @@ namespace MaquettageFilRouge
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Chiffre_affaire f = new Chiffre_affaire();
+            f.Show();
+        }
     }
 }
