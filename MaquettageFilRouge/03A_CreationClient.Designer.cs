@@ -95,6 +95,8 @@
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.textBox26 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -145,7 +147,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label13);
@@ -168,7 +169,7 @@
             this.panel2.Controls.Add(this.textBox7);
             this.panel2.Controls.Add(this.textBox18);
             this.panel2.Controls.Add(this.label19);
-            this.panel2.Location = new System.Drawing.Point(18, 83);
+            this.panel2.Location = new System.Drawing.Point(12, 86);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(433, 306);
             this.panel2.TabIndex = 8;
@@ -306,7 +307,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(502, 83);
+            this.tabControl1.Location = new System.Drawing.Point(506, 132);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(444, 170);
@@ -654,7 +655,7 @@
             this.panel1.Controls.Add(this.textBox29);
             this.panel1.Controls.Add(this.textBox30);
             this.panel1.Controls.Add(this.label31);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(12, 398);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(433, 251);
             this.panel1.TabIndex = 29;
@@ -723,11 +724,36 @@
             this.textBox26.Size = new System.Drawing.Size(292, 20);
             this.textBox26.TabIndex = 15;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(502, 86);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.checkBox1.Size = new System.Drawing.Size(267, 17);
+            this.checkBox1.TabIndex = 30;
+            this.checkBox1.Text = "Utiliser la même adresse pour l\'adresse de Livraison";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(502, 109);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.checkBox2.Size = new System.Drawing.Size(278, 17);
+            this.checkBox2.TabIndex = 30;
+            this.checkBox2.Text = "Utiliser la même adresse pour l\'adresse de Facturation";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
             // _03A_CreationClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 404);
+            this.ClientSize = new System.Drawing.Size(962, 819);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button2);
@@ -821,5 +847,7 @@
         private System.Windows.Forms.TextBox textBox25;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }

@@ -47,18 +47,19 @@
             this.button6 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.CheckBox = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Identifiant = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Adresse = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(847, 12);
+            this.button5.Location = new System.Drawing.Point(856, 12);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(36, 20);
             this.button5.TabIndex = 2;
@@ -149,8 +150,10 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.CheckBox,
             this.Identifiant,
             this.Nom,
             this.Adresse,
@@ -158,7 +161,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(15, 58);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(604, 271);
+            this.dataGridView1.Size = new System.Drawing.Size(628, 271);
             this.dataGridView1.TabIndex = 8;
             // 
             // groupBox1
@@ -171,7 +174,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(249, 31);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(634, 370);
+            this.groupBox1.Size = new System.Drawing.Size(648, 370);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Recherche";
@@ -205,7 +208,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(807, 417);
+            this.button6.Location = new System.Drawing.Point(822, 417);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 10;
@@ -235,6 +238,21 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Rechercher un client";
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(741, 417);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "Valider";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // CheckBox
+            // 
+            this.CheckBox.HeaderText = "";
+            this.CheckBox.Name = "CheckBox";
+            this.CheckBox.Width = 20;
+            // 
             // Identifiant
             // 
             this.Identifiant.HeaderText = "Identifiant";
@@ -260,20 +278,11 @@
             this.Type.Name = "Type";
             this.Type.ReadOnly = true;
             // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(726, 417);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "Valider";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
             // _03_gestionClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 452);
+            this.ClientSize = new System.Drawing.Size(907, 452);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -319,10 +328,11 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn CheckBox;
         private System.Windows.Forms.DataGridViewTextBoxColumn Identifiant;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nom;
         private System.Windows.Forms.DataGridViewTextBoxColumn Adresse;
         private System.Windows.Forms.DataGridViewTextBoxColumn Type;
-        private System.Windows.Forms.Button button7;
     }
 }

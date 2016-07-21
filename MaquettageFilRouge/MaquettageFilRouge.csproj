@@ -70,6 +70,12 @@
     <Compile Include="02_Accueil.Designer.cs">
       <DependentUpon>02_Accueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="04A_Synthese_commande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04A_Synthese_commande.Designer.cs">
+      <DependentUpon>04A_Synthese_commande.cs</DependentUpon>
+    </Compile>
     <Compile Include="04_CreationCommande.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="03_gestionClient.resx">
       <DependentUpon>03_GestionClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04A_Synthese_commande.resx">
+      <DependentUpon>04A_Synthese_commande.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="04_CreationCommande.resx">
       <DependentUpon>04_CreationCommande.cs</DependentUpon>
