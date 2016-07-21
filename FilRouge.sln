@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML Fil Rouge", "UML Fil Rouge\UML Fil Rouge.modelproj", "{672A5F9F-31EB-4CE2-9BA8-9B097E5A95F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Diagramm", "ConsoleApplication1\Class Diagramm.csproj", "{82449F2F-35FF-4643-8ABD-072AC0191743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaquettageFilRouge", "MaquettageFilRouge\MaquettageFilRouge.csproj", "{025936AF-0874-4C88-A740-19BD5B5B4840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{672A5F9F-31EB-4CE2-9BA8-9B097E5A95F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672A5F9F-31EB-4CE2-9BA8-9B097E5A95F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672A5F9F-31EB-4CE2-9BA8-9B097E5A95F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672A5F9F-31EB-4CE2-9BA8-9B097E5A95F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82449F2F-35FF-4643-8ABD-072AC0191743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82449F2F-35FF-4643-8ABD-072AC0191743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82449F2F-35FF-4643-8ABD-072AC0191743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82449F2F-35FF-4643-8ABD-072AC0191743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025936AF-0874-4C88-A740-19BD5B5B4840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025936AF-0874-4C88-A740-19BD5B5B4840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025936AF-0874-4C88-A740-19BD5B5B4840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025936AF-0874-4C88-A740-19BD5B5B4840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

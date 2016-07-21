@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c85ebd792b94971b3dbcc9d7bf76801" Name="Diagram1" ZoomLevel="93">
+        <EntityTypeShape EntityType="Fil_rougeModel.AdresseDeFacturation" Width="2.125" PointX="5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.AdresseDeLivraison" Width="1.75" PointX="8.375" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.BonLivraison" Width="1.5" PointX="7.5" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.Client" Width="1.5" PointX="0.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.Commande" Width="1.5" PointX="2.625" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.Commercial" Width="1.5" PointX="0.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.compose" Width="1.5" PointX="4" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.est_livre" Width="1.5" PointX="2.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.Fournisseur" Width="1.5" PointX="0.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.Produit" Width="1.5" PointX="4.375" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.regroupe" Width="1.5" PointX="6.125" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Fil_rougeModel.Rubrique" Width="1.5" PointX="7.125" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="Fil_rougeModel.FK__Commande__code_f__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__BonLivrai__code___300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__BonLivrai__numer__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__regroupe__code_l__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__Commande__code_c__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__compose__numero___3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__compose__code_pr__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__est_livre__code___33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__est_livre__code___34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.FK__regroupe__code_p__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.contient" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.fait_parti" ManuallyRouted="false" />
+        <AssociationConnector Association="Fil_rougeModel.soccupe" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Fil_rougeModel.fournis" Width="1.5" PointX="2.25" PointY="3.5" />
+        <AssociationConnector Association="Fil_rougeModel.Fournisseurfournis" />
+        <AssociationConnector Association="Fil_rougeModel.fournisProduit" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

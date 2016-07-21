@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="9c56a0c7-137c-4aae-8741-256544db6e44" name="Cas Usage Fil Rouge" linkedPackageId="96863cd4-ed96-480a-8c2f-6f45ed883d43" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="4ee29fe8-bab4-471f-a9cb-ab6aa71e9779" name="Commercial" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5f22917b-4368-4806-a09d-d5591673d962" />
+        <targetEnds>
+          <association Id="d6517b08-11f8-485b-86aa-22b2f1f3f572" isDerived="false" sourceEndRoleName="Commercial" targetEndRoleName="Passer une commande" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9db71416-d892-41d8-b5ce-2a6a7202ba31" LastKnownName="Passer une commande" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87d50806-5a0e-496c-8067-299f59434efc" name="Commercial" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="60f617f0-8b5d-4b8e-8e85-6044295fbafc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b2557f46-b647-463a-8e4b-afbe50c60618" name="Passer une commande" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="58b0b6db-ea17-4df7-950d-228c0d037c20" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fcf60681-dc87-4b05-8186-7f5874e8f85b" />
+          </association>
+          <association Id="5e85dd98-9139-4e74-a257-ea0cd3ba80c4" isDerived="false" sourceEndRoleName="Commercial" targetEndRoleName="Consulter les commandes" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0e02d923-142b-4ad5-a2b7-e7b3ecf88a9a" LastKnownName="Consulter l'état des commandes" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="22d21481-26b4-4a14-888a-f1a94bc9233a" name="Commercial" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d85ab3c8-df51-4ec9-8250-4d51c3343e8a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8bbf1938-4c65-4018-8e51-dff0d35bf580" name="Consulter les commandes" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fc315d44-8888-455e-b76e-7727cd70ff9f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8192c46b-a563-426e-8de6-ac653a34888c" />
+          </association>
+          <association Id="68da9e51-3c7f-43d0-8574-0b50cd44a29f" isDerived="false" sourceEndRoleName="Commercial" targetEndRoleName="Editer des documents" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="da6d161f-df20-4cc3-804f-c593787ea62a" LastKnownName="Editer des documents" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="21fcc2a3-5f0f-440c-b804-40b03ec0d340" name="Commercial" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d867ceb1-e8dc-4e42-ac9d-94c6ee4e5cc9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a8a2c129-9b24-413d-ae8a-423eb5630d9d" name="Editer des documents" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d842f84e-1fdd-4861-96b9-60c7b5a9b54f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="56b0120e-e799-4239-a9f3-1a49df25c7ce" />
+          </association>
+          <association Id="8308bfaa-70dc-432c-981d-d7fbe04fb4f8" isDerived="false" sourceEndRoleName="Commercial" targetEndRoleName="Gestion des client" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="82c717d4-4b00-46b7-a3af-ba23a700b636" LastKnownName="Gestion des client" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6694ad9-e1b9-4f82-9401-7e21015619b5" name="Commercial" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="428eb957-926e-4c16-93c7-577e7bb081b1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9d85c898-75e2-433a-91ab-be630460005f" name="Gestion des client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fa6fe131-aa05-4f92-b6e8-2ba4de2369ee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aba6f002-df79-4b17-9536-fa5d7f292383" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="415bcabd-3228-441a-bb9e-f6522d23d2b4" name="Gestionnaire" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cd2b8b9e-baa3-4759-86ac-b9e5dca22d67" />
+        <targetEnds>
+          <association Id="634b4f8e-8f64-483d-8df1-147bb0a600b9" isDerived="false" sourceEndRoleName="Gestionnaire" targetEndRoleName="Gestion des produits" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e7084c37-a390-4dad-a77e-fa5686d4e47a" LastKnownName="Gestion des produits" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dadfcaf6-5750-4194-9ddd-1d4d87adbabc" name="Gestionnaire" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="61aee4dc-82be-41e4-a64b-c0d332ba510f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acf6eb9f-c518-4207-b226-00d4276ff58f" name="Gestion des produits" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f81e370c-1bb1-4275-966b-7026b312375f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eca254a4-e865-4eb4-8398-39c15c3f7fa1" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9db71416-d892-41d8-b5ce-2a6a7202ba31" name="Passer une commande" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1a5c3e73-4535-41f9-87d5-d1776b1604ff" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1fd1e2d1-2f0c-4d0c-93f4-9890420594a8" name="Ajouter un produit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4d998cae-72f2-4eed-a9db-5384f8223a21" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2f4ea612-3eee-447d-8cbf-b5930e71744a" name="Supprimer un produit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fa9babc6-1749-47bc-8456-79cf1c876b9d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d775e3d4-c714-4782-ac78-4cc110d6179a" name="Modifier un produit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f1afa191-01de-4738-85b2-7d998e4ccbf3" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e7084c37-a390-4dad-a77e-fa5686d4e47a" name="Gestion des produits" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3cb8a719-be0c-48bb-8ede-5c4a977ec0b0" />
+        <suppliersInternal>
+          <dependency Id="b4a881c3-c908-4905-8154-dd421c0806d9">
+            <useCaseMoniker Id="1fd1e2d1-2f0c-4d0c-93f4-9890420594a8" LastKnownName="Ajouter un produit" />
+            <elementDefinition Id="21db7f24-71aa-45cd-a34b-44dfabeef02e" />
+          </dependency>
+          <dependency Id="30bc39c2-7575-489a-ad4c-1263421286c6">
+            <useCaseMoniker Id="2f4ea612-3eee-447d-8cbf-b5930e71744a" LastKnownName="Supprimer un produit" />
+            <elementDefinition Id="fb834e2c-65ba-463c-8575-34d962a7cba6" />
+          </dependency>
+          <dependency Id="22c79d21-c1d9-49e5-b699-aeae101e2894">
+            <useCaseMoniker Id="d775e3d4-c714-4782-ac78-4cc110d6179a" LastKnownName="Modifier un produit" />
+            <elementDefinition Id="089e8fd7-bbbc-42ca-a9a1-45888c65b09e" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="94bc28bb-f262-4794-8200-c24703510cbc" name="Créer une fiche client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="641ff706-60ff-4157-9156-57493079c0f9" />
+        <suppliersInternal>
+          <dependency Id="429a8911-6d33-4882-881c-a75373ca9eb7">
+            <useCaseMoniker Id="fc03ed8a-4ac2-438a-9c8d-cfd8ef96bf15" LastKnownName="Création Fiche Facturation" />
+            <elementDefinition Id="e64f06fc-a44e-4245-8458-c79bec71c6ae" />
+          </dependency>
+          <dependency Id="44786a31-20d5-4e3c-b2ed-ea860cf95be8">
+            <useCaseMoniker Id="6cd029db-da8e-4b3f-b6aa-7000a7d1fc1f" LastKnownName="Création Fiche client" />
+            <elementDefinition Id="6e99ac45-74ef-4b2f-9181-3e26f20fd8fb" />
+          </dependency>
+          <dependency Id="62b3e0b6-605f-4d09-aa3c-743638230985">
+            <useCaseMoniker Id="4b4e7a80-2366-4ea3-bb75-fd05d3708898" LastKnownName="Création fiche Livraison" />
+            <elementDefinition Id="a4dce652-e3af-4947-a8d1-9f2e2b0e7db5" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6cd029db-da8e-4b3f-b6aa-7000a7d1fc1f" name="Création Fiche client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8410804e-6a53-4ff4-8dbb-ff19a3e53041" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4b4e7a80-2366-4ea3-bb75-fd05d3708898" name="Création fiche Livraison" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6010b7b4-10a4-41b8-8d27-459b86f2667d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fc03ed8a-4ac2-438a-9c8d-cfd8ef96bf15" name="Création Fiche Facturation" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e80e119e-3631-42c5-b41e-cd269cf69a4e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0e02d923-142b-4ad5-a2b7-e7b3ecf88a9a" name="Consulter l'état des commandes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="59ad3784-2b96-4c95-a72f-abde1fea5ea0" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="da6d161f-df20-4cc3-804f-c593787ea62a" name="Editer des documents" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3e2fd330-f6b4-41e6-884a-af54b43929e0" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6fe61be4-52e3-40f3-b831-c775799df9e5" name="Modifier une fiche client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0dfbf0e7-e955-49bf-8dac-2dbd4faaf4bb" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3cd69eeb-9ed0-4c1f-a607-f5fd0aa98f46" name="Supprimer une fiche client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1e255316-4a9b-4e21-b1d6-9d8afbbbaffb" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="82c717d4-4b00-46b7-a3af-ba23a700b636" name="Gestion des client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="663f0d97-4109-4843-9403-e0e01ada14fa" />
+        <suppliersInternal>
+          <dependency Id="0e9b4a09-7b24-4f66-9961-19626d6a687d">
+            <useCaseMoniker Id="94bc28bb-f262-4794-8200-c24703510cbc" LastKnownName="Créer une fiche client" />
+            <elementDefinition Id="75f59c47-3372-41b7-9b26-a2ef1fe71302" />
+          </dependency>
+          <dependency Id="2683befe-d792-48f6-8a41-baa8b4492e21">
+            <useCaseMoniker Id="6fe61be4-52e3-40f3-b831-c775799df9e5" LastKnownName="Modifier une fiche client" />
+            <elementDefinition Id="fbeb82b4-157e-4728-b285-f379a2cea3d7" />
+          </dependency>
+          <dependency Id="6afa6308-a163-4067-9828-4ac775fcfc8e">
+            <useCaseMoniker Id="3cd69eeb-9ed0-4c1f-a607-f5fd0aa98f46" LastKnownName="Supprimer une fiche client" />
+            <elementDefinition Id="f3b99d8b-3750-4960-af1a-b159c92a9a58" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="96863cd4-ed96-480a-8c2f-6f45ed883d43" name="UML Fil Rouge">
+    <elementDefinition Id="e2539c5e-14ca-4ef0-9691-8bd27602ff52" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a2a737b8-9391-4ddc-b2fd-d84d09bf7a6e">
+        <profileInstance Id="3a9102e9-cc0a-4e87-865f-56152e14a7ff" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="95eed687-0dae-4440-b914-13ae6bd6df11">
+        <profileInstance Id="596f3933-de8c-4ac7-a927-eef668a3a77e" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
