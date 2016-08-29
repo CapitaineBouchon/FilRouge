@@ -25,7 +25,10 @@ namespace MaquettageFilRouge
         private void button1_Click(object sender, EventArgs e)
         {
             Accueil f = new Accueil();
+            this.Hide();
             f.Show();
+            
+
         }
     }
 }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{025936AF-0874-4C88-A740-19BD5B5B4840}</ProjectGuid>
+    <ProjectGuid>{4BB54EB1-B6B8-4A27-A5A5-5F5048BDD358}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaquettageFilRouge</RootNamespace>
-    <AssemblyName>MaquettageFilRouge</AssemblyName>
+    <RootNamespace>Fil_rouge</RootNamespace>
+    <AssemblyName>Fil_rouge</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,88 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01_Login.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="01_Login.Designer.cs">
-      <DependentUpon>01_Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="03A_CreationClient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="03A_CreationClient.Designer.cs">
-      <DependentUpon>03A_CreationClient.cs</DependentUpon>
-    </Compile>
-    <Compile Include="03_GestionClient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="03_GestionClient.Designer.cs">
-      <DependentUpon>03_GestionClient.cs</DependentUpon>
-    </Compile>
-    <Compile Include="02_Accueil.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="02_Accueil.Designer.cs">
-      <DependentUpon>02_Accueil.cs</DependentUpon>
-    </Compile>
-    <Compile Include="04A_Synthese_commande.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="04A_Synthese_commande.Designer.cs">
-      <DependentUpon>04A_Synthese_commande.cs</DependentUpon>
-    </Compile>
-    <Compile Include="04_CreationCommande.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="04_CreationCommande.Designer.cs">
-      <DependentUpon>04_CreationCommande.cs</DependentUpon>
-    </Compile>
-    <Compile Include="05_Catalogue.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="05_Catalogue.Designer.cs">
-      <DependentUpon>05_Catalogue.cs</DependentUpon>
-    </Compile>
-    <Compile Include="06A_DetailsCommande.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="06A_DetailsCommande.Designer.cs">
-      <DependentUpon>06A_DetailsCommande.cs</DependentUpon>
-    </Compile>
-    <Compile Include="06_Recherches.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="06_Recherches.Designer.cs">
-      <DependentUpon>06_Recherches.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="01_Login.resx">
-      <DependentUpon>01_Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="02_Accueil.resx">
-      <DependentUpon>02_Accueil.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="03A_CreationClient.resx">
-      <DependentUpon>03A_CreationClient.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="03_gestionClient.resx">
-      <DependentUpon>03_GestionClient.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="04A_Synthese_commande.resx">
-      <DependentUpon>04A_Synthese_commande.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="04_CreationCommande.resx">
-      <DependentUpon>04_CreationCommande.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="05_Catalogue.resx">
-      <DependentUpon>05_Catalogue.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="06A_DetailsCommande.resx">
-      <DependentUpon>06A_DetailsCommande.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="06_Recherches.resx">
-      <DependentUpon>06_Recherches.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

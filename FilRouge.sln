@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Diagramm", "ConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaquettageFilRouge", "MaquettageFilRouge\MaquettageFilRouge.csproj", "{025936AF-0874-4C88-A740-19BD5B5B4840}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fil_rouge", "Fil_rouge\Fil_rouge.csproj", "{4BB54EB1-B6B8-4A27-A5A5-5F5048BDD358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{025936AF-0874-4C88-A740-19BD5B5B4840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025936AF-0874-4C88-A740-19BD5B5B4840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025936AF-0874-4C88-A740-19BD5B5B4840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB54EB1-B6B8-4A27-A5A5-5F5048BDD358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB54EB1-B6B8-4A27-A5A5-5F5048BDD358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB54EB1-B6B8-4A27-A5A5-5F5048BDD358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB54EB1-B6B8-4A27-A5A5-5F5048BDD358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

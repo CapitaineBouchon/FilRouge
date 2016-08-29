@@ -24,7 +24,8 @@ namespace MaquettageFilRouge
 
         private void Accueil_Load(object sender, EventArgs e)
         {
-
+            Form1 t = new Form1();
+            t.Hide();
         }
 
         private void toolStripComboBox1_Click(object sender, EventArgs e)
