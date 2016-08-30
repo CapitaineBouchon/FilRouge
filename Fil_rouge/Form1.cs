@@ -19,7 +19,10 @@ namespace Fil_rouge
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
-            
+            Accueil a = new Accueil();
+            this.Hide();
+            a.ShowDialog();
+            this.Show();
         }
 
         private void btnAnnul_Click(object sender, EventArgs e)
@@ -35,6 +38,11 @@ namespace Fil_rouge
             {
                 Application.Exit();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            txtId.Select();
         }
     }
 }

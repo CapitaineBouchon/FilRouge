@@ -82,6 +82,7 @@
             // 
             this.txtPwd.Location = new System.Drawing.Point(83, 216);
             this.txtPwd.Name = "txtPwd";
+            this.txtPwd.PasswordChar = '*';
             this.txtPwd.Size = new System.Drawing.Size(192, 20);
             this.txtPwd.TabIndex = 3;
             // 
@@ -126,8 +127,10 @@
             this.Controls.Add(this.btnAnnul);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnConnect);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Connexion";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
