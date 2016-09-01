@@ -37,8 +37,8 @@
             this.MenuCA = new System.Windows.Forms.ToolStripMenuItem();
             this.catalogueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deconnexionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuStrip1.SuspendLayout();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // gestionClientToolStripMenuItem
@@ -92,12 +92,14 @@
             this.MenuCA.Name = "MenuCA";
             this.MenuCA.Size = new System.Drawing.Size(101, 20);
             this.MenuCA.Text = "Chiffre d\'affaire";
+            this.MenuCA.Click += new System.EventHandler(this.MenuCA_Click);
             // 
             // catalogueToolStripMenuItem
             // 
             this.catalogueToolStripMenuItem.Name = "catalogueToolStripMenuItem";
             this.catalogueToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.catalogueToolStripMenuItem.Text = "Catalogue";
+            this.catalogueToolStripMenuItem.Click += new System.EventHandler(this.catalogueToolStripMenuItem_Click);
             // 
             // deconnexionToolStripMenuItem
             // 
@@ -106,19 +108,19 @@
             this.deconnexionToolStripMenuItem.Text = "Deconnexion";
             this.deconnexionToolStripMenuItem.Click += new System.EventHandler(this.deconnexionToolStripMenuItem_Click);
             // 
-            // menuStrip1
+            // menuStrip
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gestionClientToolStripMenuItem,
             this.gEstionCommandeToolStripMenuItem,
             this.MenuCA,
             this.catalogueToolStripMenuItem,
             this.deconnexionToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(732, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(732, 24);
+            this.menuStrip.TabIndex = 1;
+            this.menuStrip.Text = "menuStrip1";
             // 
             // Accueil
             // 
@@ -127,17 +129,17 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(732, 480);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menuStrip);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.menuStrip;
             this.Name = "Accueil";
             this.Text = "Accueil";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Accueil_FormClosing);
             this.Load += new System.EventHandler(this.Accueil_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,6 +156,6 @@
         private System.Windows.Forms.ToolStripMenuItem MenuCA;
         private System.Windows.Forms.ToolStripMenuItem catalogueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deconnexionToolStripMenuItem;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menuStrip;
     }
 }

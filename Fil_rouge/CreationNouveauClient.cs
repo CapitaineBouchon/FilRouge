@@ -52,5 +52,21 @@ namespace Fil_rouge
             
             
         }
+
+        private void btnValider_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Fiche Client créée", "Fiche client", MessageBoxButtons.OK);
+            this.MdiParent.Width = 748;
+            this.MdiParent.Height = 519;
+            foreach (Form f in this.MdiParent.MdiChildren)
+            {
+                f.Close();
+            }
+        }
+
+        private void CreationNouveauClient_Load(object sender, EventArgs e)
+        {
+            txtnom_Par.Select();
+        }
     }
 }

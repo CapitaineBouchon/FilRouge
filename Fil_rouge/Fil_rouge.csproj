@@ -52,6 +52,18 @@
     <Compile Include="Accueil.Designer.cs">
       <DependentUpon>Accueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="Catalogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogue.Designer.cs">
+      <DependentUpon>Catalogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChiffreAffaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiffreAffaire.Designer.cs">
+      <DependentUpon>ChiffreAffaire.cs</DependentUpon>
+    </Compile>
     <Compile Include="CreationNouveauClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,8 +90,26 @@
     <Compile Include="RechercheClient.Designer.cs">
       <DependentUpon>RechercheClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="RechercheCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechercheCommande.Designer.cs">
+      <DependentUpon>RechercheCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SyntheseCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SyntheseCommande.Designer.cs">
+      <DependentUpon>SyntheseCommande.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Accueil.resx">
       <DependentUpon>Accueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogue.resx">
+      <DependentUpon>Catalogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChiffreAffaire.resx">
+      <DependentUpon>ChiffreAffaire.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreationNouveauClient.resx">
       <DependentUpon>CreationNouveauClient.cs</DependentUpon>
@@ -102,6 +132,12 @@
     <EmbeddedResource Include="RechercheClient.resx">
       <DependentUpon>RechercheClient.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RechercheCommande.resx">
+      <DependentUpon>RechercheCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SyntheseCommande.resx">
+      <DependentUpon>SyntheseCommande.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -114,6 +150,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Classes\Classes.csproj">
+      <Project>{60b8527b-f3db-4a50-883c-15622fbaa902}</Project>
+      <Name>Classes</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

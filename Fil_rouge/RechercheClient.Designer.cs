@@ -29,29 +29,23 @@
         private void InitializeComponent()
         {
             this.label6 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.CheckBox = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Identifiant = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Adresse = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnValider = new System.Windows.Forms.Button();
+            this.boxRecherche = new System.Windows.Forms.GroupBox();
+            this.btnSupprimer = new System.Windows.Forms.Button();
+            this.btnModifier = new System.Windows.Forms.Button();
+            this.btnCreer = new System.Windows.Forms.Button();
+            this.gridRecherche = new System.Windows.Forms.DataGridView();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.txtAdresse = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.comboType = new System.Windows.Forms.ComboBox();
+            this.boxRecherche.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridRecherche)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -64,132 +58,87 @@
             this.label6.TabIndex = 26;
             this.label6.Text = "Rechercher un client";
             // 
-            // button7
+            // btnValider
             // 
-            this.button7.Location = new System.Drawing.Point(741, 348);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 24;
-            this.button7.Text = "Valider";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnValider.Location = new System.Drawing.Point(816, 348);
+            this.btnValider.Name = "btnValider";
+            this.btnValider.Size = new System.Drawing.Size(75, 23);
+            this.btnValider.TabIndex = 24;
+            this.btnValider.Text = "Valider";
+            this.btnValider.UseVisualStyleBackColor = true;
+            this.btnValider.Visible = false;
             // 
-            // button6
+            // boxRecherche
             // 
-            this.button6.Location = new System.Drawing.Point(822, 348);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 25;
-            this.button6.Text = "Retour";
-            this.button6.UseVisualStyleBackColor = true;
+            this.boxRecherche.Controls.Add(this.btnSupprimer);
+            this.boxRecherche.Controls.Add(this.btnModifier);
+            this.boxRecherche.Controls.Add(this.btnCreer);
+            this.boxRecherche.Controls.Add(this.gridRecherche);
+            this.boxRecherche.Location = new System.Drawing.Point(249, 12);
+            this.boxRecherche.Name = "boxRecherche";
+            this.boxRecherche.Size = new System.Drawing.Size(648, 330);
+            this.boxRecherche.TabIndex = 23;
+            this.boxRecherche.TabStop = false;
+            this.boxRecherche.Text = "Recherche";
             // 
-            // groupBox1
+            // btnSupprimer
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Location = new System.Drawing.Point(249, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(648, 330);
-            this.groupBox1.TabIndex = 23;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Recherche";
+            this.btnSupprimer.Location = new System.Drawing.Point(176, 296);
+            this.btnSupprimer.Name = "btnSupprimer";
+            this.btnSupprimer.Size = new System.Drawing.Size(75, 23);
+            this.btnSupprimer.TabIndex = 9;
+            this.btnSupprimer.Text = "Supprimer";
+            this.btnSupprimer.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnModifier
             // 
-            this.button4.Location = new System.Drawing.Point(176, 296);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Supprimer";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnModifier.Location = new System.Drawing.Point(95, 296);
+            this.btnModifier.Name = "btnModifier";
+            this.btnModifier.Size = new System.Drawing.Size(75, 23);
+            this.btnModifier.TabIndex = 9;
+            this.btnModifier.Text = "Modifier";
+            this.btnModifier.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnCreer
             // 
-            this.button3.Location = new System.Drawing.Point(95, 296);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Modifier";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCreer.Location = new System.Drawing.Point(14, 296);
+            this.btnCreer.Name = "btnCreer";
+            this.btnCreer.Size = new System.Drawing.Size(75, 23);
+            this.btnCreer.TabIndex = 9;
+            this.btnCreer.Text = "Créer";
+            this.btnCreer.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // gridRecherche
             // 
-            this.button2.Location = new System.Drawing.Point(14, 296);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Créer";
-            this.button2.UseVisualStyleBackColor = true;
+            this.gridRecherche.AllowUserToAddRows = false;
+            this.gridRecherche.AllowUserToDeleteRows = false;
+            this.gridRecherche.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.gridRecherche.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridRecherche.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
+            this.gridRecherche.Location = new System.Drawing.Point(14, 19);
+            this.gridRecherche.Name = "gridRecherche";
+            this.gridRecherche.ReadOnly = true;
+            this.gridRecherche.RowHeadersVisible = false;
+            this.gridRecherche.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.gridRecherche.Size = new System.Drawing.Size(628, 271);
+            this.gridRecherche.TabIndex = 8;
             // 
-            // dataGridView1
+            // btnSearch
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.CheckBox,
-            this.Identifiant,
-            this.Nom,
-            this.Adresse,
-            this.Type});
-            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.dataGridView1.Location = new System.Drawing.Point(14, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(628, 271);
-            this.dataGridView1.TabIndex = 8;
+            this.btnSearch.Location = new System.Drawing.Point(99, 216);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(100, 23);
+            this.btnSearch.TabIndex = 22;
+            this.btnSearch.Text = "Rechercher";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.button1_Click);
             // 
-            // CheckBox
+            // txtAdresse
             // 
-            this.CheckBox.HeaderText = "";
-            this.CheckBox.Name = "CheckBox";
-            this.CheckBox.Width = 20;
-            // 
-            // Identifiant
-            // 
-            this.Identifiant.HeaderText = "Identifiant";
-            this.Identifiant.Name = "Identifiant";
-            this.Identifiant.ReadOnly = true;
-            // 
-            // Nom
-            // 
-            this.Nom.HeaderText = "Nom";
-            this.Nom.Name = "Nom";
-            this.Nom.ReadOnly = true;
-            this.Nom.Width = 150;
-            // 
-            // Adresse
-            // 
-            this.Adresse.HeaderText = "Adresse";
-            this.Adresse.Name = "Adresse";
-            this.Adresse.Width = 250;
-            // 
-            // Type
-            // 
-            this.Type.HeaderText = "Type";
-            this.Type.Name = "Type";
-            this.Type.ReadOnly = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(99, 216);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Rechercher";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(71, 164);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(156, 20);
-            this.textBox3.TabIndex = 18;
+            this.txtAdresse.Location = new System.Drawing.Point(71, 164);
+            this.txtAdresse.Name = "txtAdresse";
+            this.txtAdresse.Size = new System.Drawing.Size(156, 20);
+            this.txtAdresse.TabIndex = 18;
             // 
             // label4
             // 
@@ -200,12 +149,12 @@
             this.label4.TabIndex = 14;
             this.label4.Text = "Adresse";
             // 
-            // textBox2
+            // txtNom
             // 
-            this.textBox2.Location = new System.Drawing.Point(71, 138);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(156, 20);
-            this.textBox2.TabIndex = 19;
+            this.txtNom.Location = new System.Drawing.Point(71, 138);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(156, 20);
+            this.txtNom.TabIndex = 19;
             // 
             // label3
             // 
@@ -216,13 +165,6 @@
             this.label3.TabIndex = 15;
             this.label3.Text = "Nom";
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(71, 190);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(156, 20);
-            this.textBox4.TabIndex = 20;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -232,12 +174,12 @@
             this.label5.TabIndex = 16;
             this.label5.Text = "Type";
             // 
-            // textBox1
+            // txtId
             // 
-            this.textBox1.Location = new System.Drawing.Point(71, 112);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 20);
-            this.textBox1.TabIndex = 21;
+            this.txtId.Location = new System.Drawing.Point(71, 112);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(156, 20);
+            this.txtId.TabIndex = 21;
             // 
             // label2
             // 
@@ -248,28 +190,40 @@
             this.label2.TabIndex = 17;
             this.label2.Text = "Identifiant";
             // 
+            // comboType
+            // 
+            this.comboType.FormattingEnabled = true;
+            this.comboType.Items.AddRange(new object[] {
+            "Tous",
+            "Particulier",
+            "Professionnel"});
+            this.comboType.Location = new System.Drawing.Point(71, 190);
+            this.comboType.Name = "comboType";
+            this.comboType.Size = new System.Drawing.Size(156, 21);
+            this.comboType.TabIndex = 27;
+            // 
             // RechercheClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(941, 455);
+            this.Controls.Add(this.comboType);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.btnValider);
+            this.Controls.Add(this.boxRecherche);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.txtAdresse);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNom);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label2);
             this.Name = "RechercheClient";
             this.Text = "RechercheClient";
-            this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.RechercheClient_Load);
+            this.boxRecherche.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridRecherche)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,26 +232,20 @@
         #endregion
 
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn CheckBox;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Identifiant;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nom;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Adresse;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Type;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnValider;
+        private System.Windows.Forms.GroupBox boxRecherche;
+        private System.Windows.Forms.Button btnSupprimer;
+        private System.Windows.Forms.Button btnModifier;
+        private System.Windows.Forms.Button btnCreer;
+        private System.Windows.Forms.DataGridView gridRecherche;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.TextBox txtAdresse;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboType;
     }
 }

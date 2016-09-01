@@ -70,7 +70,9 @@ namespace Fil_rouge
 
         private void Accueil_Load(object sender, EventArgs e)
         {
-
+            RechercheCommande premierFrom = new RechercheCommande();
+            ChangeWindow(premierFrom);
+            fenetre = false;
         }
 
         private void menuNouveauClient_Click(object sender, EventArgs e)
@@ -141,7 +143,62 @@ namespace Fil_rouge
 
         private void MenuRechercheCommande_Click(object sender, EventArgs e)
         {
+            if (fenetre)
+            {
+                if (Message() == DialogResult.Yes)
+                {
 
+                    RechercheCommande maform = new RechercheCommande();
+                    ChangeWindow(maform);                    
+                    fenetre = false;
+                }
+            }
+            else
+            {
+                RechercheCommande maform = new RechercheCommande();
+                ChangeWindow(maform);
+                fenetre = false;
+            }
+        }
+
+        private void MenuCA_Click(object sender, EventArgs e)
+        {
+            if (fenetre)
+            {
+                if (Message() == DialogResult.Yes)
+                {
+
+                    ChiffreAffaire maform = new ChiffreAffaire();
+                    ChangeWindow(maform);
+                    fenetre = false;
+                }
+            }
+            else
+            {
+                ChiffreAffaire maform = new ChiffreAffaire();
+                ChangeWindow(maform);
+                fenetre = false;
+            }
+        }
+
+        private void catalogueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (fenetre)
+            {
+                if (Message() == DialogResult.Yes)
+                {
+
+                    Catalogue maform = new Catalogue();
+                    ChangeWindow(maform);
+                    fenetre = false;
+                }
+            }
+            else
+            {
+                Catalogue maform = new Catalogue();
+                ChangeWindow(maform);
+                fenetre = false;
+            }
         }
     }
 }

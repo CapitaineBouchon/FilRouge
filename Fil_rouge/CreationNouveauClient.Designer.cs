@@ -91,12 +91,13 @@
             this.txtCP_Fact = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.txtVille_Fact = new System.Windows.Forms.TextBox();
-            this.txtAnnuler = new System.Windows.Forms.Button();
             this.btnValider = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPro = new System.Windows.Forms.RadioButton();
             this.btnParticulier = new System.Windows.Forms.RadioButton();
             this.boxCheckBtn = new System.Windows.Forms.GroupBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.txtCoeff = new System.Windows.Forms.TextBox();
             this.panelParticulier.SuspendLayout();
             this.panelPro.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -676,23 +677,15 @@
             this.txtVille_Fact.Size = new System.Drawing.Size(292, 20);
             this.txtVille_Fact.TabIndex = 15;
             // 
-            // txtAnnuler
-            // 
-            this.txtAnnuler.Location = new System.Drawing.Point(965, 402);
-            this.txtAnnuler.Name = "txtAnnuler";
-            this.txtAnnuler.Size = new System.Drawing.Size(75, 23);
-            this.txtAnnuler.TabIndex = 36;
-            this.txtAnnuler.Text = "Annuler";
-            this.txtAnnuler.UseVisualStyleBackColor = true;
-            // 
             // btnValider
             // 
-            this.btnValider.Location = new System.Drawing.Point(884, 402);
+            this.btnValider.Location = new System.Drawing.Point(936, 402);
             this.btnValider.Name = "btnValider";
             this.btnValider.Size = new System.Drawing.Size(75, 23);
             this.btnValider.TabIndex = 37;
             this.btnValider.Text = "Valider";
             this.btnValider.UseVisualStyleBackColor = true;
+            this.btnValider.Click += new System.EventHandler(this.btnValider_Click);
             // 
             // label1
             // 
@@ -739,23 +732,43 @@
             this.boxCheckBtn.TabStop = false;
             this.boxCheckBtn.Text = "Type de client";
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(583, 354);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(57, 13);
+            this.label28.TabIndex = 43;
+            this.label28.Text = "Coefficient";
+            // 
+            // txtCoeff
+            // 
+            this.txtCoeff.Location = new System.Drawing.Point(647, 351);
+            this.txtCoeff.Name = "txtCoeff";
+            this.txtCoeff.Size = new System.Drawing.Size(65, 20);
+            this.txtCoeff.TabIndex = 44;
+            this.txtCoeff.Text = "0";
+            this.txtCoeff.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // CreationNouveauClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1065, 502);
+            this.Controls.Add(this.txtCoeff);
+            this.Controls.Add(this.label28);
             this.Controls.Add(this.boxCheckBtn);
             this.Controls.Add(this.checkFacturation);
             this.Controls.Add(this.panelParticulier);
             this.Controls.Add(this.checkLivraison);
             this.Controls.Add(this.panelPro);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.txtAnnuler);
             this.Controls.Add(this.btnValider);
             this.Controls.Add(this.label1);
             this.Name = "CreationNouveauClient";
             this.Text = "CreationNouveauClient";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CreationNouveauClient_FormClosing);
+            this.Load += new System.EventHandler(this.CreationNouveauClient_Load);
             this.panelParticulier.ResumeLayout(false);
             this.panelParticulier.PerformLayout();
             this.panelPro.ResumeLayout(false);
@@ -837,11 +850,12 @@
         private System.Windows.Forms.TextBox txtCP_Fact;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.TextBox txtVille_Fact;
-        private System.Windows.Forms.Button txtAnnuler;
         private System.Windows.Forms.Button btnValider;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton btnPro;
         private System.Windows.Forms.RadioButton btnParticulier;
         private System.Windows.Forms.GroupBox boxCheckBtn;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox txtCoeff;
     }
 }

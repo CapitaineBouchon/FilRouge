@@ -29,113 +29,107 @@
         private void InitializeComponent()
         {
             this.boxClient = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateBox = new System.Windows.Forms.DateTimePicker();
             this.boxParticulier = new System.Windows.Forms.GroupBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.btnResetPart = new System.Windows.Forms.Button();
+            this.txtVillePar = new System.Windows.Forms.TextBox();
+            this.txtVilleParFac = new System.Windows.Forms.TextBox();
+            this.txtVilleParLiv = new System.Windows.Forms.TextBox();
+            this.txtCPPar = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtCPParFac = new System.Windows.Forms.TextBox();
+            this.txtCPParLiv = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtComplementParFac = new System.Windows.Forms.TextBox();
+            this.txtComplementParLiv = new System.Windows.Forms.TextBox();
+            this.txtComplementPar = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtAdresseParFac = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtAdresseParLiv = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtAdressePar = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPrenomPar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNomPar = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnSearchClient = new System.Windows.Forms.Button();
+            this.txtSearchBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.boxProduit = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkPaiementDiffere = new System.Windows.Forms.CheckBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quantite = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prix = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.quantiteProduit = new System.Windows.Forms.NumericUpDown();
+            this.gridProduits = new System.Windows.Forms.DataGridView();
+            this.btnSupprimerProduit = new System.Windows.Forms.Button();
+            this.btnSearchProduit = new System.Windows.Forms.Button();
+            this.txtReduction = new System.Windows.Forms.TextBox();
+            this.txtProduit = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.boxRemarque = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtRemarques = new System.Windows.Forms.RichTextBox();
             this.label38 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSynthese = new System.Windows.Forms.Button();
+            this.btnSuivant = new System.Windows.Forms.Button();
+            this.btnPrecedant = new System.Windows.Forms.Button();
             this.boxPro = new System.Windows.Forms.GroupBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.btnResetPro = new System.Windows.Forms.Button();
+            this.txtVillePro = new System.Windows.Forms.TextBox();
+            this.txtVilleProLiv = new System.Windows.Forms.TextBox();
+            this.txtVilleProFac = new System.Windows.Forms.TextBox();
+            this.txtCPPro = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.txtCPProLiv = new System.Windows.Forms.TextBox();
+            this.txtCPProFac = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.txtComplementProLiv = new System.Windows.Forms.TextBox();
+            this.txtComplementProFac = new System.Windows.Forms.TextBox();
+            this.txtComplementPro = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.txtAdresseProLiv = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.txtAdresseProFac = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.txtAdressePro = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.txtSiretPro = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.txtNomPro = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.boxClient.SuspendLayout();
             this.boxParticulier.SuspendLayout();
             this.boxProduit.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quantiteProduit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridProduits)).BeginInit();
             this.boxRemarque.SuspendLayout();
             this.boxPro.SuspendLayout();
             this.SuspendLayout();
             // 
             // boxClient
             // 
-            this.boxClient.Controls.Add(this.dateTimePicker1);
+            this.boxClient.Controls.Add(this.dateBox);
             this.boxClient.Controls.Add(this.boxParticulier);
-            this.boxClient.Controls.Add(this.button1);
-            this.boxClient.Controls.Add(this.textBox3);
+            this.boxClient.Controls.Add(this.btnSearchClient);
+            this.boxClient.Controls.Add(this.txtSearchBox);
             this.boxClient.Controls.Add(this.label3);
             this.boxClient.Location = new System.Drawing.Point(12, 12);
             this.boxClient.Name = "boxClient";
@@ -144,46 +138,46 @@
             this.boxClient.TabStop = false;
             this.boxClient.Text = "Informations client";
             // 
-            // dateTimePicker1
+            // dateBox
             // 
-            this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Location = new System.Drawing.Point(697, 22);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 4;
+            this.dateBox.Enabled = false;
+            this.dateBox.Location = new System.Drawing.Point(697, 22);
+            this.dateBox.Name = "dateBox";
+            this.dateBox.Size = new System.Drawing.Size(200, 20);
+            this.dateBox.TabIndex = 4;
             // 
             // boxParticulier
             // 
             this.boxParticulier.Controls.Add(this.label17);
             this.boxParticulier.Controls.Add(this.label16);
-            this.boxParticulier.Controls.Add(this.button8);
-            this.boxParticulier.Controls.Add(this.textBox11);
-            this.boxParticulier.Controls.Add(this.textBox15);
-            this.boxParticulier.Controls.Add(this.textBox10);
-            this.boxParticulier.Controls.Add(this.textBox6);
+            this.boxParticulier.Controls.Add(this.btnResetPart);
+            this.boxParticulier.Controls.Add(this.txtVillePar);
+            this.boxParticulier.Controls.Add(this.txtVilleParFac);
+            this.boxParticulier.Controls.Add(this.txtVilleParLiv);
+            this.boxParticulier.Controls.Add(this.txtCPPar);
             this.boxParticulier.Controls.Add(this.label11);
-            this.boxParticulier.Controls.Add(this.textBox14);
-            this.boxParticulier.Controls.Add(this.textBox9);
+            this.boxParticulier.Controls.Add(this.txtCPParFac);
+            this.boxParticulier.Controls.Add(this.txtCPParLiv);
             this.boxParticulier.Controls.Add(this.label6);
             this.boxParticulier.Controls.Add(this.label15);
             this.boxParticulier.Controls.Add(this.label10);
             this.boxParticulier.Controls.Add(this.label14);
             this.boxParticulier.Controls.Add(this.label9);
-            this.boxParticulier.Controls.Add(this.textBox13);
-            this.boxParticulier.Controls.Add(this.textBox8);
-            this.boxParticulier.Controls.Add(this.textBox5);
+            this.boxParticulier.Controls.Add(this.txtComplementParFac);
+            this.boxParticulier.Controls.Add(this.txtComplementParLiv);
+            this.boxParticulier.Controls.Add(this.txtComplementPar);
             this.boxParticulier.Controls.Add(this.label13);
             this.boxParticulier.Controls.Add(this.label8);
             this.boxParticulier.Controls.Add(this.label5);
-            this.boxParticulier.Controls.Add(this.textBox12);
+            this.boxParticulier.Controls.Add(this.txtAdresseParFac);
             this.boxParticulier.Controls.Add(this.label12);
-            this.boxParticulier.Controls.Add(this.textBox7);
+            this.boxParticulier.Controls.Add(this.txtAdresseParLiv);
             this.boxParticulier.Controls.Add(this.label7);
-            this.boxParticulier.Controls.Add(this.textBox4);
+            this.boxParticulier.Controls.Add(this.txtAdressePar);
             this.boxParticulier.Controls.Add(this.label4);
-            this.boxParticulier.Controls.Add(this.textBox2);
+            this.boxParticulier.Controls.Add(this.txtPrenomPar);
             this.boxParticulier.Controls.Add(this.label2);
-            this.boxParticulier.Controls.Add(this.textBox1);
+            this.boxParticulier.Controls.Add(this.txtNomPar);
             this.boxParticulier.Controls.Add(this.label1);
             this.boxParticulier.Enabled = false;
             this.boxParticulier.Location = new System.Drawing.Point(0, 53);
@@ -191,6 +185,7 @@
             this.boxParticulier.Size = new System.Drawing.Size(904, 206);
             this.boxParticulier.TabIndex = 3;
             this.boxParticulier.TabStop = false;
+            this.boxParticulier.Enter += new System.EventHandler(this.boxParticulier_Enter);
             // 
             // label17
             // 
@@ -210,42 +205,42 @@
             this.label16.TabIndex = 2;
             this.label16.Text = "Adresse de Facturation";
             // 
-            // button8
+            // btnResetPart
             // 
-            this.button8.Location = new System.Drawing.Point(822, 177);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Réinitialiser";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnResetPart.Location = new System.Drawing.Point(822, 177);
+            this.btnResetPart.Name = "btnResetPart";
+            this.btnResetPart.Size = new System.Drawing.Size(75, 23);
+            this.btnResetPart.TabIndex = 2;
+            this.btnResetPart.Text = "Réinitialiser";
+            this.btnResetPart.UseVisualStyleBackColor = true;
             // 
-            // textBox11
+            // txtVillePar
             // 
-            this.textBox11.Location = new System.Drawing.Point(77, 152);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(205, 20);
-            this.textBox11.TabIndex = 1;
+            this.txtVillePar.Location = new System.Drawing.Point(77, 152);
+            this.txtVillePar.Name = "txtVillePar";
+            this.txtVillePar.Size = new System.Drawing.Size(205, 20);
+            this.txtVillePar.TabIndex = 1;
             // 
-            // textBox15
+            // txtVilleParFac
             // 
-            this.textBox15.Location = new System.Drawing.Point(692, 126);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(205, 20);
-            this.textBox15.TabIndex = 1;
+            this.txtVilleParFac.Location = new System.Drawing.Point(379, 127);
+            this.txtVilleParFac.Name = "txtVilleParFac";
+            this.txtVilleParFac.Size = new System.Drawing.Size(205, 20);
+            this.txtVilleParFac.TabIndex = 1;
             // 
-            // textBox10
+            // txtVilleParLiv
             // 
-            this.textBox10.Location = new System.Drawing.Point(379, 126);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(205, 20);
-            this.textBox10.TabIndex = 1;
+            this.txtVilleParLiv.Location = new System.Drawing.Point(692, 127);
+            this.txtVilleParLiv.Name = "txtVilleParLiv";
+            this.txtVilleParLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtVilleParLiv.TabIndex = 1;
             // 
-            // textBox6
+            // txtCPPar
             // 
-            this.textBox6.Location = new System.Drawing.Point(77, 126);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(205, 20);
-            this.textBox6.TabIndex = 1;
+            this.txtCPPar.Location = new System.Drawing.Point(77, 126);
+            this.txtCPPar.Name = "txtCPPar";
+            this.txtCPPar.Size = new System.Drawing.Size(205, 20);
+            this.txtCPPar.TabIndex = 1;
             // 
             // label11
             // 
@@ -256,19 +251,19 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "Ville";
             // 
-            // textBox14
+            // txtCPParFac
             // 
-            this.textBox14.Location = new System.Drawing.Point(692, 100);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(205, 20);
-            this.textBox14.TabIndex = 1;
+            this.txtCPParFac.Location = new System.Drawing.Point(379, 101);
+            this.txtCPParFac.Name = "txtCPParFac";
+            this.txtCPParFac.Size = new System.Drawing.Size(205, 20);
+            this.txtCPParFac.TabIndex = 1;
             // 
-            // textBox9
+            // txtCPParLiv
             // 
-            this.textBox9.Location = new System.Drawing.Point(379, 100);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(205, 20);
-            this.textBox9.TabIndex = 1;
+            this.txtCPParLiv.Location = new System.Drawing.Point(692, 101);
+            this.txtCPParLiv.Name = "txtCPParLiv";
+            this.txtCPParLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtCPParLiv.TabIndex = 1;
             // 
             // label6
             // 
@@ -315,26 +310,26 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Code Postal";
             // 
-            // textBox13
+            // txtComplementParFac
             // 
-            this.textBox13.Location = new System.Drawing.Point(692, 74);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(205, 20);
-            this.textBox13.TabIndex = 1;
+            this.txtComplementParFac.Location = new System.Drawing.Point(379, 75);
+            this.txtComplementParFac.Name = "txtComplementParFac";
+            this.txtComplementParFac.Size = new System.Drawing.Size(205, 20);
+            this.txtComplementParFac.TabIndex = 1;
             // 
-            // textBox8
+            // txtComplementParLiv
             // 
-            this.textBox8.Location = new System.Drawing.Point(379, 74);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(205, 20);
-            this.textBox8.TabIndex = 1;
+            this.txtComplementParLiv.Location = new System.Drawing.Point(692, 75);
+            this.txtComplementParLiv.Name = "txtComplementParLiv";
+            this.txtComplementParLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtComplementParLiv.TabIndex = 1;
             // 
-            // textBox5
+            // txtComplementPar
             // 
-            this.textBox5.Location = new System.Drawing.Point(77, 100);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(205, 20);
-            this.textBox5.TabIndex = 1;
+            this.txtComplementPar.Location = new System.Drawing.Point(77, 100);
+            this.txtComplementPar.Name = "txtComplementPar";
+            this.txtComplementPar.Size = new System.Drawing.Size(205, 20);
+            this.txtComplementPar.TabIndex = 1;
             // 
             // label13
             // 
@@ -363,12 +358,12 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Complément";
             // 
-            // textBox12
+            // txtAdresseParFac
             // 
-            this.textBox12.Location = new System.Drawing.Point(692, 48);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(205, 20);
-            this.textBox12.TabIndex = 1;
+            this.txtAdresseParFac.Location = new System.Drawing.Point(379, 49);
+            this.txtAdresseParFac.Name = "txtAdresseParFac";
+            this.txtAdresseParFac.Size = new System.Drawing.Size(205, 20);
+            this.txtAdresseParFac.TabIndex = 1;
             // 
             // label12
             // 
@@ -379,12 +374,12 @@
             this.label12.TabIndex = 0;
             this.label12.Text = "Adresse";
             // 
-            // textBox7
+            // txtAdresseParLiv
             // 
-            this.textBox7.Location = new System.Drawing.Point(379, 48);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(205, 20);
-            this.textBox7.TabIndex = 1;
+            this.txtAdresseParLiv.Location = new System.Drawing.Point(692, 49);
+            this.txtAdresseParLiv.Name = "txtAdresseParLiv";
+            this.txtAdresseParLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtAdresseParLiv.TabIndex = 1;
             // 
             // label7
             // 
@@ -395,12 +390,12 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Adresse";
             // 
-            // textBox4
+            // txtAdressePar
             // 
-            this.textBox4.Location = new System.Drawing.Point(77, 74);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(205, 20);
-            this.textBox4.TabIndex = 1;
+            this.txtAdressePar.Location = new System.Drawing.Point(77, 74);
+            this.txtAdressePar.Name = "txtAdressePar";
+            this.txtAdressePar.Size = new System.Drawing.Size(205, 20);
+            this.txtAdressePar.TabIndex = 1;
             // 
             // label4
             // 
@@ -411,12 +406,12 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Adresse";
             // 
-            // textBox2
+            // txtPrenomPar
             // 
-            this.textBox2.Location = new System.Drawing.Point(77, 48);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(205, 20);
-            this.textBox2.TabIndex = 1;
+            this.txtPrenomPar.Location = new System.Drawing.Point(77, 48);
+            this.txtPrenomPar.Name = "txtPrenomPar";
+            this.txtPrenomPar.Size = new System.Drawing.Size(205, 20);
+            this.txtPrenomPar.TabIndex = 1;
             // 
             // label2
             // 
@@ -427,12 +422,12 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Prénom";
             // 
-            // textBox1
+            // txtNomPar
             // 
-            this.textBox1.Location = new System.Drawing.Point(77, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(205, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtNomPar.Location = new System.Drawing.Point(77, 22);
+            this.txtNomPar.Name = "txtNomPar";
+            this.txtNomPar.Size = new System.Drawing.Size(205, 20);
+            this.txtNomPar.TabIndex = 1;
             // 
             // label1
             // 
@@ -443,22 +438,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nom";
             // 
-            // button1
+            // btnSearchClient
             // 
-            this.button1.Location = new System.Drawing.Point(331, 17);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Rechercher";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSearchClient.Location = new System.Drawing.Point(331, 17);
+            this.btnSearchClient.Name = "btnSearchClient";
+            this.btnSearchClient.Size = new System.Drawing.Size(75, 23);
+            this.btnSearchClient.TabIndex = 2;
+            this.btnSearchClient.Text = "Rechercher";
+            this.btnSearchClient.UseVisualStyleBackColor = true;
+            this.btnSearchClient.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox3
+            // txtSearchBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(77, 19);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(205, 20);
-            this.textBox3.TabIndex = 1;
+            this.txtSearchBox.Location = new System.Drawing.Point(77, 19);
+            this.txtSearchBox.Name = "txtSearchBox";
+            this.txtSearchBox.Size = new System.Drawing.Size(205, 20);
+            this.txtSearchBox.TabIndex = 1;
             // 
             // label3
             // 
@@ -471,38 +466,38 @@
             // 
             // boxProduit
             // 
-            this.boxProduit.Controls.Add(this.checkBox1);
+            this.boxProduit.Controls.Add(this.checkPaiementDiffere);
             this.boxProduit.Controls.Add(this.label21);
             this.boxProduit.Controls.Add(this.label20);
-            this.boxProduit.Controls.Add(this.numericUpDown1);
-            this.boxProduit.Controls.Add(this.dataGridView1);
-            this.boxProduit.Controls.Add(this.button6);
-            this.boxProduit.Controls.Add(this.button7);
-            this.boxProduit.Controls.Add(this.textBox17);
-            this.boxProduit.Controls.Add(this.textBox16);
+            this.boxProduit.Controls.Add(this.quantiteProduit);
+            this.boxProduit.Controls.Add(this.gridProduits);
+            this.boxProduit.Controls.Add(this.btnSupprimerProduit);
+            this.boxProduit.Controls.Add(this.btnSearchProduit);
+            this.boxProduit.Controls.Add(this.txtReduction);
+            this.boxProduit.Controls.Add(this.txtProduit);
             this.boxProduit.Controls.Add(this.label19);
             this.boxProduit.Controls.Add(this.label18);
-            this.boxProduit.Location = new System.Drawing.Point(955, 306);
+            this.boxProduit.Location = new System.Drawing.Point(12, 306);
             this.boxProduit.Name = "boxProduit";
-            this.boxProduit.Size = new System.Drawing.Size(904, 282);
+            this.boxProduit.Size = new System.Drawing.Size(904, 264);
             this.boxProduit.TabIndex = 9;
             this.boxProduit.TabStop = false;
             this.boxProduit.Text = "Produit";
             this.boxProduit.Visible = false;
             // 
-            // checkBox1
+            // checkPaiementDiffere
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(124, 256);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkPaiementDiffere.AutoSize = true;
+            this.checkPaiementDiffere.Location = new System.Drawing.Point(124, 240);
+            this.checkPaiementDiffere.Name = "checkPaiementDiffere";
+            this.checkPaiementDiffere.Size = new System.Drawing.Size(15, 14);
+            this.checkPaiementDiffere.TabIndex = 12;
+            this.checkPaiementDiffere.UseVisualStyleBackColor = true;
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(20, 256);
+            this.label21.Location = new System.Drawing.Point(20, 240);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(98, 13);
             this.label21.TabIndex = 11;
@@ -511,104 +506,63 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(7, 230);
+            this.label20.Location = new System.Drawing.Point(7, 214);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(111, 13);
             this.label20.TabIndex = 11;
             this.label20.Text = "Réduction à appliquer";
             // 
-            // numericUpDown1
+            // quantiteProduit
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(374, 19);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(46, 20);
-            this.numericUpDown1.TabIndex = 10;
+            this.quantiteProduit.Location = new System.Drawing.Point(374, 19);
+            this.quantiteProduit.Name = "quantiteProduit";
+            this.quantiteProduit.Size = new System.Drawing.Size(46, 20);
+            this.quantiteProduit.TabIndex = 10;
             // 
-            // dataGridView1
+            // gridProduits
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Code,
-            this.Description,
-            this.Quantite,
-            this.prix,
-            this.Total});
-            this.dataGridView1.Location = new System.Drawing.Point(10, 53);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(887, 150);
-            this.dataGridView1.TabIndex = 0;
+            this.gridProduits.AllowUserToAddRows = false;
+            this.gridProduits.AllowUserToDeleteRows = false;
+            this.gridProduits.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.gridProduits.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridProduits.Location = new System.Drawing.Point(10, 53);
+            this.gridProduits.Name = "gridProduits";
+            this.gridProduits.ReadOnly = true;
+            this.gridProduits.RowHeadersVisible = false;
+            this.gridProduits.Size = new System.Drawing.Size(887, 150);
+            this.gridProduits.TabIndex = 0;
             // 
-            // Column1
+            // btnSupprimerProduit
             // 
-            this.Column1.HeaderText = "";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 25;
+            this.btnSupprimerProduit.Location = new System.Drawing.Point(822, 209);
+            this.btnSupprimerProduit.Name = "btnSupprimerProduit";
+            this.btnSupprimerProduit.Size = new System.Drawing.Size(75, 23);
+            this.btnSupprimerProduit.TabIndex = 9;
+            this.btnSupprimerProduit.Text = "Supprimer";
+            this.btnSupprimerProduit.UseVisualStyleBackColor = true;
             // 
-            // Code
+            // btnSearchProduit
             // 
-            this.Code.HeaderText = "Référence";
-            this.Code.Name = "Code";
-            this.Code.ReadOnly = true;
+            this.btnSearchProduit.Location = new System.Drawing.Point(464, 19);
+            this.btnSearchProduit.Name = "btnSearchProduit";
+            this.btnSearchProduit.Size = new System.Drawing.Size(75, 23);
+            this.btnSearchProduit.TabIndex = 2;
+            this.btnSearchProduit.Text = "Rechercher";
+            this.btnSearchProduit.UseVisualStyleBackColor = true;
             // 
-            // Description
+            // txtReduction
             // 
-            this.Description.HeaderText = "Description";
-            this.Description.Name = "Description";
-            this.Description.ReadOnly = true;
-            this.Description.Width = 400;
+            this.txtReduction.Location = new System.Drawing.Point(124, 211);
+            this.txtReduction.Name = "txtReduction";
+            this.txtReduction.Size = new System.Drawing.Size(56, 20);
+            this.txtReduction.TabIndex = 1;
             // 
-            // Quantite
+            // txtProduit
             // 
-            this.Quantite.HeaderText = "Quantité";
-            this.Quantite.Name = "Quantite";
-            // 
-            // prix
-            // 
-            this.prix.HeaderText = "Prix Unitaire HT";
-            this.prix.Name = "prix";
-            this.prix.ReadOnly = true;
-            // 
-            // Total
-            // 
-            this.Total.HeaderText = "Total";
-            this.Total.Name = "Total";
-            this.Total.ReadOnly = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(822, 209);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "Supprimer";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(464, 19);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Rechercher";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(124, 227);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(56, 20);
-            this.textBox17.TabIndex = 1;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(110, 19);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(205, 20);
-            this.textBox16.TabIndex = 1;
+            this.txtProduit.Location = new System.Drawing.Point(110, 19);
+            this.txtProduit.Name = "txtProduit";
+            this.txtProduit.Size = new System.Drawing.Size(205, 20);
+            this.txtProduit.TabIndex = 1;
             // 
             // label19
             // 
@@ -630,9 +584,9 @@
             // 
             // boxRemarque
             // 
-            this.boxRemarque.Controls.Add(this.richTextBox1);
+            this.boxRemarque.Controls.Add(this.txtRemarques);
             this.boxRemarque.Controls.Add(this.label38);
-            this.boxRemarque.Location = new System.Drawing.Point(13, 318);
+            this.boxRemarque.Location = new System.Drawing.Point(12, 618);
             this.boxRemarque.Name = "boxRemarque";
             this.boxRemarque.Size = new System.Drawing.Size(903, 242);
             this.boxRemarque.TabIndex = 12;
@@ -640,13 +594,13 @@
             this.boxRemarque.Text = "Remarques";
             this.boxRemarque.Visible = false;
             // 
-            // richTextBox1
+            // txtRemarques
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(20, 62);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(876, 158);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
+            this.txtRemarques.Location = new System.Drawing.Point(20, 62);
+            this.txtRemarques.Name = "txtRemarques";
+            this.txtRemarques.Size = new System.Drawing.Size(876, 158);
+            this.txtRemarques.TabIndex = 1;
+            this.txtRemarques.Text = "";
             // 
             // label38
             // 
@@ -657,70 +611,72 @@
             this.label38.TabIndex = 0;
             this.label38.Text = "Remarque particulières pour la commande";
             // 
-            // button4
+            // btnSynthese
             // 
-            this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(841, 277);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Synthèse";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSynthese.Enabled = false;
+            this.btnSynthese.Location = new System.Drawing.Point(841, 277);
+            this.btnSynthese.Name = "btnSynthese";
+            this.btnSynthese.Size = new System.Drawing.Size(75, 23);
+            this.btnSynthese.TabIndex = 13;
+            this.btnSynthese.Text = "Synthèse";
+            this.btnSynthese.UseVisualStyleBackColor = true;
+            this.btnSynthese.Click += new System.EventHandler(this.btnSynthese_Click);
             // 
-            // button3
+            // btnSuivant
             // 
-            this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(760, 277);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Suivant";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSuivant.Location = new System.Drawing.Point(760, 277);
+            this.btnSuivant.Name = "btnSuivant";
+            this.btnSuivant.Size = new System.Drawing.Size(75, 23);
+            this.btnSuivant.TabIndex = 14;
+            this.btnSuivant.Text = "Suivant";
+            this.btnSuivant.UseVisualStyleBackColor = true;
+            this.btnSuivant.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btnPrecedant
             // 
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(679, 277);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Précédant";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnPrecedant.Enabled = false;
+            this.btnPrecedant.Location = new System.Drawing.Point(679, 277);
+            this.btnPrecedant.Name = "btnPrecedant";
+            this.btnPrecedant.Size = new System.Drawing.Size(75, 23);
+            this.btnPrecedant.TabIndex = 15;
+            this.btnPrecedant.Text = "Précédant";
+            this.btnPrecedant.UseVisualStyleBackColor = true;
+            this.btnPrecedant.Click += new System.EventHandler(this.btnPrecedant_Click);
             // 
             // boxPro
             // 
             this.boxPro.Controls.Add(this.label22);
             this.boxPro.Controls.Add(this.label23);
-            this.boxPro.Controls.Add(this.button9);
-            this.boxPro.Controls.Add(this.textBox21);
-            this.boxPro.Controls.Add(this.textBox22);
-            this.boxPro.Controls.Add(this.textBox23);
-            this.boxPro.Controls.Add(this.textBox24);
+            this.boxPro.Controls.Add(this.btnResetPro);
+            this.boxPro.Controls.Add(this.txtVillePro);
+            this.boxPro.Controls.Add(this.txtVilleProLiv);
+            this.boxPro.Controls.Add(this.txtVilleProFac);
+            this.boxPro.Controls.Add(this.txtCPPro);
             this.boxPro.Controls.Add(this.label24);
-            this.boxPro.Controls.Add(this.textBox25);
-            this.boxPro.Controls.Add(this.textBox26);
+            this.boxPro.Controls.Add(this.txtCPProLiv);
+            this.boxPro.Controls.Add(this.txtCPProFac);
             this.boxPro.Controls.Add(this.label25);
             this.boxPro.Controls.Add(this.label26);
             this.boxPro.Controls.Add(this.label27);
             this.boxPro.Controls.Add(this.label28);
             this.boxPro.Controls.Add(this.label29);
-            this.boxPro.Controls.Add(this.textBox27);
-            this.boxPro.Controls.Add(this.textBox28);
-            this.boxPro.Controls.Add(this.textBox29);
+            this.boxPro.Controls.Add(this.txtComplementProLiv);
+            this.boxPro.Controls.Add(this.txtComplementProFac);
+            this.boxPro.Controls.Add(this.txtComplementPro);
             this.boxPro.Controls.Add(this.label30);
             this.boxPro.Controls.Add(this.label31);
             this.boxPro.Controls.Add(this.label32);
-            this.boxPro.Controls.Add(this.textBox30);
+            this.boxPro.Controls.Add(this.txtAdresseProLiv);
             this.boxPro.Controls.Add(this.label33);
-            this.boxPro.Controls.Add(this.textBox31);
+            this.boxPro.Controls.Add(this.txtAdresseProFac);
             this.boxPro.Controls.Add(this.label34);
-            this.boxPro.Controls.Add(this.textBox32);
+            this.boxPro.Controls.Add(this.txtAdressePro);
             this.boxPro.Controls.Add(this.label35);
-            this.boxPro.Controls.Add(this.textBox33);
+            this.boxPro.Controls.Add(this.txtSiretPro);
             this.boxPro.Controls.Add(this.label36);
-            this.boxPro.Controls.Add(this.textBox34);
+            this.boxPro.Controls.Add(this.txtNomPro);
             this.boxPro.Controls.Add(this.label37);
-            this.boxPro.Location = new System.Drawing.Point(962, 66);
+            this.boxPro.Location = new System.Drawing.Point(934, 66);
             this.boxPro.Name = "boxPro";
             this.boxPro.Size = new System.Drawing.Size(904, 206);
             this.boxPro.TabIndex = 16;
@@ -745,42 +701,42 @@
             this.label23.TabIndex = 2;
             this.label23.Text = "Adresse de Facturation";
             // 
-            // button9
+            // btnResetPro
             // 
-            this.button9.Location = new System.Drawing.Point(822, 177);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "Réinitialiser";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnResetPro.Location = new System.Drawing.Point(822, 177);
+            this.btnResetPro.Name = "btnResetPro";
+            this.btnResetPro.Size = new System.Drawing.Size(75, 23);
+            this.btnResetPro.TabIndex = 2;
+            this.btnResetPro.Text = "Réinitialiser";
+            this.btnResetPro.UseVisualStyleBackColor = true;
             // 
-            // textBox21
+            // txtVillePro
             // 
-            this.textBox21.Location = new System.Drawing.Point(77, 152);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(205, 20);
-            this.textBox21.TabIndex = 1;
+            this.txtVillePro.Location = new System.Drawing.Point(77, 152);
+            this.txtVillePro.Name = "txtVillePro";
+            this.txtVillePro.Size = new System.Drawing.Size(205, 20);
+            this.txtVillePro.TabIndex = 1;
             // 
-            // textBox22
+            // txtVilleProLiv
             // 
-            this.textBox22.Location = new System.Drawing.Point(692, 126);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(205, 20);
-            this.textBox22.TabIndex = 1;
+            this.txtVilleProLiv.Location = new System.Drawing.Point(692, 126);
+            this.txtVilleProLiv.Name = "txtVilleProLiv";
+            this.txtVilleProLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtVilleProLiv.TabIndex = 1;
             // 
-            // textBox23
+            // txtVilleProFac
             // 
-            this.textBox23.Location = new System.Drawing.Point(379, 126);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(205, 20);
-            this.textBox23.TabIndex = 1;
+            this.txtVilleProFac.Location = new System.Drawing.Point(379, 126);
+            this.txtVilleProFac.Name = "txtVilleProFac";
+            this.txtVilleProFac.Size = new System.Drawing.Size(205, 20);
+            this.txtVilleProFac.TabIndex = 1;
             // 
-            // textBox24
+            // txtCPPro
             // 
-            this.textBox24.Location = new System.Drawing.Point(77, 126);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(205, 20);
-            this.textBox24.TabIndex = 1;
+            this.txtCPPro.Location = new System.Drawing.Point(77, 126);
+            this.txtCPPro.Name = "txtCPPro";
+            this.txtCPPro.Size = new System.Drawing.Size(205, 20);
+            this.txtCPPro.TabIndex = 1;
             // 
             // label24
             // 
@@ -791,19 +747,19 @@
             this.label24.TabIndex = 0;
             this.label24.Text = "Ville";
             // 
-            // textBox25
+            // txtCPProLiv
             // 
-            this.textBox25.Location = new System.Drawing.Point(692, 100);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(205, 20);
-            this.textBox25.TabIndex = 1;
+            this.txtCPProLiv.Location = new System.Drawing.Point(692, 100);
+            this.txtCPProLiv.Name = "txtCPProLiv";
+            this.txtCPProLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtCPProLiv.TabIndex = 1;
             // 
-            // textBox26
+            // txtCPProFac
             // 
-            this.textBox26.Location = new System.Drawing.Point(379, 100);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(205, 20);
-            this.textBox26.TabIndex = 1;
+            this.txtCPProFac.Location = new System.Drawing.Point(379, 100);
+            this.txtCPProFac.Name = "txtCPProFac";
+            this.txtCPProFac.Size = new System.Drawing.Size(205, 20);
+            this.txtCPProFac.TabIndex = 1;
             // 
             // label25
             // 
@@ -850,26 +806,26 @@
             this.label29.TabIndex = 0;
             this.label29.Text = "Code Postal";
             // 
-            // textBox27
+            // txtComplementProLiv
             // 
-            this.textBox27.Location = new System.Drawing.Point(692, 74);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(205, 20);
-            this.textBox27.TabIndex = 1;
+            this.txtComplementProLiv.Location = new System.Drawing.Point(692, 74);
+            this.txtComplementProLiv.Name = "txtComplementProLiv";
+            this.txtComplementProLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtComplementProLiv.TabIndex = 1;
             // 
-            // textBox28
+            // txtComplementProFac
             // 
-            this.textBox28.Location = new System.Drawing.Point(379, 74);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(205, 20);
-            this.textBox28.TabIndex = 1;
+            this.txtComplementProFac.Location = new System.Drawing.Point(379, 74);
+            this.txtComplementProFac.Name = "txtComplementProFac";
+            this.txtComplementProFac.Size = new System.Drawing.Size(205, 20);
+            this.txtComplementProFac.TabIndex = 1;
             // 
-            // textBox29
+            // txtComplementPro
             // 
-            this.textBox29.Location = new System.Drawing.Point(77, 100);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(205, 20);
-            this.textBox29.TabIndex = 1;
+            this.txtComplementPro.Location = new System.Drawing.Point(77, 100);
+            this.txtComplementPro.Name = "txtComplementPro";
+            this.txtComplementPro.Size = new System.Drawing.Size(205, 20);
+            this.txtComplementPro.TabIndex = 1;
             // 
             // label30
             // 
@@ -898,12 +854,12 @@
             this.label32.TabIndex = 0;
             this.label32.Text = "Complément";
             // 
-            // textBox30
+            // txtAdresseProLiv
             // 
-            this.textBox30.Location = new System.Drawing.Point(692, 48);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(205, 20);
-            this.textBox30.TabIndex = 1;
+            this.txtAdresseProLiv.Location = new System.Drawing.Point(692, 48);
+            this.txtAdresseProLiv.Name = "txtAdresseProLiv";
+            this.txtAdresseProLiv.Size = new System.Drawing.Size(205, 20);
+            this.txtAdresseProLiv.TabIndex = 1;
             // 
             // label33
             // 
@@ -914,12 +870,12 @@
             this.label33.TabIndex = 0;
             this.label33.Text = "Adresse";
             // 
-            // textBox31
+            // txtAdresseProFac
             // 
-            this.textBox31.Location = new System.Drawing.Point(379, 48);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(205, 20);
-            this.textBox31.TabIndex = 1;
+            this.txtAdresseProFac.Location = new System.Drawing.Point(379, 48);
+            this.txtAdresseProFac.Name = "txtAdresseProFac";
+            this.txtAdresseProFac.Size = new System.Drawing.Size(205, 20);
+            this.txtAdresseProFac.TabIndex = 1;
             // 
             // label34
             // 
@@ -930,12 +886,12 @@
             this.label34.TabIndex = 0;
             this.label34.Text = "Adresse";
             // 
-            // textBox32
+            // txtAdressePro
             // 
-            this.textBox32.Location = new System.Drawing.Point(77, 74);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(205, 20);
-            this.textBox32.TabIndex = 1;
+            this.txtAdressePro.Location = new System.Drawing.Point(77, 74);
+            this.txtAdressePro.Name = "txtAdressePro";
+            this.txtAdressePro.Size = new System.Drawing.Size(205, 20);
+            this.txtAdressePro.TabIndex = 1;
             // 
             // label35
             // 
@@ -946,12 +902,12 @@
             this.label35.TabIndex = 0;
             this.label35.Text = "Adresse";
             // 
-            // textBox33
+            // txtSiretPro
             // 
-            this.textBox33.Location = new System.Drawing.Point(77, 48);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(205, 20);
-            this.textBox33.TabIndex = 1;
+            this.txtSiretPro.Location = new System.Drawing.Point(77, 48);
+            this.txtSiretPro.Name = "txtSiretPro";
+            this.txtSiretPro.Size = new System.Drawing.Size(205, 20);
+            this.txtSiretPro.TabIndex = 1;
             // 
             // label36
             // 
@@ -962,12 +918,12 @@
             this.label36.TabIndex = 0;
             this.label36.Text = "SIRET";
             // 
-            // textBox34
+            // txtNomPro
             // 
-            this.textBox34.Location = new System.Drawing.Point(77, 22);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(205, 20);
-            this.textBox34.TabIndex = 1;
+            this.txtNomPro.Location = new System.Drawing.Point(77, 22);
+            this.txtNomPro.Name = "txtNomPro";
+            this.txtNomPro.Size = new System.Drawing.Size(205, 20);
+            this.txtNomPro.TabIndex = 1;
             // 
             // label37
             // 
@@ -984,9 +940,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1174, 972);
             this.Controls.Add(this.boxPro);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSynthese);
+            this.Controls.Add(this.btnSuivant);
+            this.Controls.Add(this.btnPrecedant);
             this.Controls.Add(this.boxRemarque);
             this.Controls.Add(this.boxProduit);
             this.Controls.Add(this.boxClient);
@@ -999,8 +955,8 @@
             this.boxParticulier.PerformLayout();
             this.boxProduit.ResumeLayout(false);
             this.boxProduit.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quantiteProduit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridProduits)).EndInit();
             this.boxRemarque.ResumeLayout(false);
             this.boxRemarque.PerformLayout();
             this.boxPro.ResumeLayout(false);
@@ -1012,97 +968,91 @@
         #endregion
 
         private System.Windows.Forms.GroupBox boxClient;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateBox;
         private System.Windows.Forms.GroupBox boxParticulier;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button btnResetPart;
+        private System.Windows.Forms.TextBox txtVillePar;
+        private System.Windows.Forms.TextBox txtVilleParFac;
+        private System.Windows.Forms.TextBox txtVilleParLiv;
+        private System.Windows.Forms.TextBox txtCPPar;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCPParFac;
+        private System.Windows.Forms.TextBox txtCPParLiv;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtComplementParFac;
+        private System.Windows.Forms.TextBox txtComplementParLiv;
+        private System.Windows.Forms.TextBox txtComplementPar;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtAdresseParFac;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtAdresseParLiv;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtAdressePar;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPrenomPar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNomPar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnSearchClient;
+        private System.Windows.Forms.TextBox txtSearchBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox boxProduit;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkPaiementDiffere;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Code;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantite;
-        private System.Windows.Forms.DataGridViewTextBoxColumn prix;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.NumericUpDown quantiteProduit;
+        private System.Windows.Forms.DataGridView gridProduits;
+        private System.Windows.Forms.Button btnSupprimerProduit;
+        private System.Windows.Forms.Button btnSearchProduit;
+        private System.Windows.Forms.TextBox txtReduction;
+        private System.Windows.Forms.TextBox txtProduit;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.GroupBox boxRemarque;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox txtRemarques;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSynthese;
+        private System.Windows.Forms.Button btnSuivant;
+        private System.Windows.Forms.Button btnPrecedant;
         private System.Windows.Forms.GroupBox boxPro;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Button btnResetPro;
+        private System.Windows.Forms.TextBox txtVillePro;
+        private System.Windows.Forms.TextBox txtVilleProLiv;
+        private System.Windows.Forms.TextBox txtVilleProFac;
+        private System.Windows.Forms.TextBox txtCPPro;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox txtCPProLiv;
+        private System.Windows.Forms.TextBox txtCPProFac;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox txtComplementProLiv;
+        private System.Windows.Forms.TextBox txtComplementProFac;
+        private System.Windows.Forms.TextBox txtComplementPro;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox txtAdresseProLiv;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox txtAdresseProFac;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox txtAdressePro;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox txtSiretPro;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox txtNomPro;
         private System.Windows.Forms.Label label37;
     }
 }

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace Fil_rouge
 {
-    public partial class Form1 : Form
+    public partial class Catalogue : Form
     {
-        public Form1()
+        public Catalogue()
         {
             InitializeComponent();
+        }
+
+        private void Catalogue_Load(object sender, EventArgs e)
+        {
+            txtCodeProduit.Select();
         }
     }
 }
