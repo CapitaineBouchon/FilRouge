@@ -27,14 +27,14 @@ namespace Fil_rouge
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RechercheClient newclient = new RechercheClient();
-            if (newclient.ShowDialog() == DialogResult.OK)
-            {
-                boxClient.Enabled = true;
-                Console.WriteLine(newclient.resultat);
-            }
+            //RechercheClient newclient = new RechercheClient();
+            //if (newclient.ShowDialog() == DialogResult.OK)
+            //{
+            //    boxClient.Enabled = true;
+            //    Console.WriteLine(newclient.resultat);
+            //}
 
-            txtNomPar.Text = newclient.resultat;
+            //txtNomPar.Text = newclient.resultat;
         }
 
         private void button3_Click(object sender, EventArgs e)

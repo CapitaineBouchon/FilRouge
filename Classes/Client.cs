@@ -8,7 +8,6 @@ namespace Classes
 {
     public class Client
     {
-        //Table Client
         public int Id { get; set; }
         public string Nom { get; set; }   
         public bool Type { get; set; }
@@ -19,15 +18,13 @@ namespace Classes
         public string Telephone { get; set; }
         public string Portable { get; set; }
         public string Mail { get; set; }
-        public float Coefficient { get; set; }
-
-        //Table AdresseDeLivraison
+        public decimal Coefficient { get; set; }
+        public bool Actif { get; set; }
+        public int idCommercial { get; set; }        
         public string AdresseLivraison { get; set; }
         public string ComplementLivraison { get; set; }
         public string CodePostalLivraison { get; set; }
-        public string VilleLivraison { get; set; }
-
-        //Table AdresseDeFacturation
+        public string VilleLivraison { get; set; }        
         public string AdresseFacturation { get; set; }
         public string ComplementFacturation { get; set; }
         public string CodePostalFacturation { get; set; }

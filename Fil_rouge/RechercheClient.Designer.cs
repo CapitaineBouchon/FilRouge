@@ -44,6 +44,7 @@
             this.txtId = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.comboType = new System.Windows.Forms.ComboBox();
+            this.btnReset = new System.Windows.Forms.Button();
             this.boxRecherche.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridRecherche)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +61,7 @@
             // 
             // btnValider
             // 
+            this.btnValider.Enabled = false;
             this.btnValider.Location = new System.Drawing.Point(816, 348);
             this.btnValider.Name = "btnValider";
             this.btnValider.Size = new System.Drawing.Size(75, 23);
@@ -67,6 +69,7 @@
             this.btnValider.Text = "Valider";
             this.btnValider.UseVisualStyleBackColor = true;
             this.btnValider.Visible = false;
+            this.btnValider.Click += new System.EventHandler(this.btnValider_Click);
             // 
             // boxRecherche
             // 
@@ -83,21 +86,25 @@
             // 
             // btnSupprimer
             // 
+            this.btnSupprimer.Enabled = false;
             this.btnSupprimer.Location = new System.Drawing.Point(176, 296);
             this.btnSupprimer.Name = "btnSupprimer";
             this.btnSupprimer.Size = new System.Drawing.Size(75, 23);
             this.btnSupprimer.TabIndex = 9;
             this.btnSupprimer.Text = "Supprimer";
             this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // btnModifier
             // 
+            this.btnModifier.Enabled = false;
             this.btnModifier.Location = new System.Drawing.Point(95, 296);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(75, 23);
             this.btnModifier.TabIndex = 9;
             this.btnModifier.Text = "Modifier";
             this.btnModifier.UseVisualStyleBackColor = true;
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
             // 
             // btnCreer
             // 
@@ -107,6 +114,7 @@
             this.btnCreer.TabIndex = 9;
             this.btnCreer.Text = "Créer";
             this.btnCreer.UseVisualStyleBackColor = true;
+            this.btnCreer.Click += new System.EventHandler(this.btnCreer_Click);
             // 
             // gridRecherche
             // 
@@ -122,6 +130,7 @@
             this.gridRecherche.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gridRecherche.Size = new System.Drawing.Size(628, 271);
             this.gridRecherche.TabIndex = 8;
+            this.gridRecherche.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridRecherche_CellContentClick);
             // 
             // btnSearch
             // 
@@ -202,6 +211,16 @@
             this.comboType.Size = new System.Drawing.Size(156, 21);
             this.comboType.TabIndex = 27;
             // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(99, 245);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(100, 23);
+            this.btnReset.TabIndex = 22;
+            this.btnReset.Text = "Réinitialiser";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.betReset_Click);
+            // 
             // RechercheClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -211,6 +230,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnValider);
             this.Controls.Add(this.boxRecherche);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtAdresse);
             this.Controls.Add(this.label4);
@@ -247,5 +267,6 @@
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboType;
+        private System.Windows.Forms.Button btnReset;
     }
 }

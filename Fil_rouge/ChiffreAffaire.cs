@@ -7,33 +7,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Classes;
+using System.Configuration;
 
 namespace Fil_rouge
 {
     public partial class ChiffreAffaire : Form
     {
+        InterrogationDAO interrogationDB;
         public ChiffreAffaire()
         {
             InitializeComponent();
+            interrogationDB = new InterrogationDAO(ConfigurationManager.AppSettings["connexionString"]);
         }
 
-        private void ChiffreAffaire_Load(object sender, EventArgs e)
-        {
-            radioAnnee.Checked = true;
-            comboMois.Enabled = false;
-            listCA.SelectedIndex = 0;
-            //Chargement des années via une requete
-        }
+        
 
-        private void radioMois_CheckedChanged(object sender, EventArgs e)
+       
+        private void btnSearch_Click(object sender, EventArgs e)
         {
-            if (radioAnnee.Checked)
+            switch (listCA.SelectedIndex)
             {
-                comboMois.Enabled = false;
-            }
-            else
-            {
-                comboMois.Enabled = true;
+                case 0:
+                    listAffiche.Items.Add(interrogationDB.CATotal());
+                    break;
+                case 1:
+                    listAffiche.DataSource = interrogationDB.CA_fournisseur();
+                    break;
+                case 2:
+                    listAffiche.DataSource = interrogationDB.CA_client();
+                    break;
+                default:
+                    break;
             }
         }
     }

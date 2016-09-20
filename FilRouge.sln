@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fil_rouge", "Fil_rouge\Fil_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{60B8527B-F3DB-4A50-883C-15622FBAA902}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMail", "TestMail\TestMail.csproj", "{8D06C333-BDC5-4E70-8599-B0E6B6CA6699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{60B8527B-F3DB-4A50-883C-15622FBAA902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B8527B-F3DB-4A50-883C-15622FBAA902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B8527B-F3DB-4A50-883C-15622FBAA902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D06C333-BDC5-4E70-8599-B0E6B6CA6699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D06C333-BDC5-4E70-8599-B0E6B6CA6699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D06C333-BDC5-4E70-8599-B0E6B6CA6699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D06C333-BDC5-4E70-8599-B0E6B6CA6699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
